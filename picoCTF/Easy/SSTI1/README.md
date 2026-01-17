@@ -2,6 +2,7 @@
 
 ## Overview
 This CTF challenge presented a simple text input field with the note that the application would "announce everything typed" by the user. Although the functionality appeared harmless, it allowed for deeper injection tests, ultimately leading to a successful Server-Side Template Injection (SSTI) exploit.
+
 ![](images/intro.jpg)
 ---
 
@@ -25,6 +26,9 @@ The first assumption was that the input might reflect output directly into the p
 ![](images/portswigger.jpg)
 - A helpful video from **PwnFunction** demonstrated how to build working payloads for Jinja-based SSTI.
 ![](images/youtube.jpg)
+https://youtu.be/SN6EVIG4c-0?si=4cLdQAum5IKgz53k
+
+
 To verify whether the backend was vulnerable to SSTI:
 1. Tested a basic Jinja-style expression:
    ```jinja
