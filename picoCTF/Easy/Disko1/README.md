@@ -14,7 +14,7 @@ Search of .dd file in Google revealed that this is a disk image file. To analyze
 
 I pressed analyze, then chose "Keyword Search" on the top to search for "picoCTF". And I was correct!
 
-![](images/answer.jpg)
+![](images/flag.jpg)
 
 ## Flag
 Now we have the flag for this CTF!!
