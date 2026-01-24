@@ -22,3 +22,4 @@ QR-Code:picoCTF{--------------------}
 scanned 1 barcode symbols from 1 images in 0.01 seconds
 ```
 As you can see we decoded the flag for this CTF!!
+
