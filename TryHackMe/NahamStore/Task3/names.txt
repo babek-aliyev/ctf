@@ -1,0 +1,4 @@
+nahamstore
+shop
+marketing
+stock
