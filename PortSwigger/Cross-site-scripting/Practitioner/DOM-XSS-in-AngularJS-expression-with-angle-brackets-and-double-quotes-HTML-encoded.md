@@ -1,6 +1,6 @@
 # Challenge Name: 
 # Platform: 
-# Difficulty: 
+# Difficult
 
 ## 1. Vulnerability Type
 
