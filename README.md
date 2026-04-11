@@ -1,9 +1,7 @@
 # 🏴‍☠️ CTF Writeups & Notes
-This repository contains my personal CTF writeups and solution notes from various platforms (picoCTF, TryHackMe, Hack The Box, etc.).
+This repository contains my personal CTF writeups and solution notes from various platforms (PortSwigger, picoCTF, TryHackMe, etc.).
 
-The goal of this repo is learning, not spoiling challenges.
-
-**👉 Flags are intentionally NOT included**
+The goal of this repo is learning and practicing real world problem solving skills in cybersecurity.
 
 Each writeup explains the **approach, reasoning, and techniques**, so readers are encouraged to reproduce the steps and find the flag on their own.
 
@@ -51,5 +49,3 @@ This ***is not a copy-paste exploit repo***, but a place to understand why thing
 3) Apply the technique
 
 4) Find the flag on your own 🏁
-
-That’s how real learning happens.
