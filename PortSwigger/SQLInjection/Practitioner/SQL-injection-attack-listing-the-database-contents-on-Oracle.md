@@ -20,7 +20,7 @@ After reading about `all_tables` and `all_tab_columns` for non-Oracle databases,
 2) To confirm SQL injection we can use `and '1'='1` and `and '2'='1` to see if there is any difference between responsed. If there is, like in our case, we confirm that web application is vulnerable to sql injection
 3) My third step was to confirm number of columns in first `select` by using command `order by 2`. `order by 3` did not work, therefore, we confirmed that we need only 2 columns for our `union select` injection
 4) 4th step is get more information about database by using `all_tables` and `all_tab_columns` for Oracle databases.
-5) After some enumeration between tables and columns we find out that this database has table called `USERS_XLDSYK`, which has columns `USERNAME_FOYIFU` and `PASSWORD_ZQJFUF`. I did it using `/filter?category=Accessories' union select column_name, null from all_tab_columns where table_name = 'USERS_XLDSYK' --```
+5) After some enumeration between tables and columns we find out that this database has table called `USERS_XLDSYK`, which has columns `USERNAME_FOYIFU` and `PASSWORD_ZQJFUF`. I did it using `/filter?category=Accessories' union select column_name, null from all_tab_columns where table_name = 'USERS_XLDSYK' --`
 6) Now all we need to do is to query this table and find usernames and passwords
 
 
