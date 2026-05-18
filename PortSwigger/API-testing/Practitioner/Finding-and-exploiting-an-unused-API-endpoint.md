@@ -1,0 +1,33 @@
+# [Challenge Name] — [Platform] — [Difficulty]
+**Date:** YYYY-MM-DD
+ 
+---
+ 
+## Vulnerability / core concept
+
+
+## What made me stuck
+
+ 
+## What unblocked me
+
+ 
+---
+
+
+## Attack path
+
+
+---
+
+
+## Payload / key command
+ 
+
+---
+
+
+## What I'd recognize faster next time
+
+ 
+
